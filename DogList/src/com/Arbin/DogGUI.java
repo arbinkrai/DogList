@@ -15,7 +15,7 @@ public class DogGUI extends JFrame {
     private JTextField dogAgeTextField;
     private JCheckBox puppyCheckBox;
     private JButton addDogToListButton;
-    private JList dogJList;
+    private JList<Dog> dogJList;
     private JButton deleteDog;
     DefaultListModel<Dog> dogListModel;
 
